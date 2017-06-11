@@ -11,19 +11,13 @@ export default new Router({
       component: require('@/components/Home')
     },
     {
-      path: '/hello',
-      name: 'hello',
-      component: require('@/components/Hello')
-    },
-    {
-      path: '/world',
-      name: 'world',
-      component: require('@/components/World')
+      path: '/testBoard',
+      name: 'testBoard',
+      component: require('@/components/TestBoard')
     },
     {
       path: '*',
       redirect: '/'
     }
-  ],
-  mode: 'history'
+  ]
 })

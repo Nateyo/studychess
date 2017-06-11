@@ -1,6 +1,8 @@
 <template>
-	<v-container fluid>
-		This is the home page.
+	<v-container>
+		<v-card>
+			Test board
+		</v-card>
 	</v-container>
 </template>
 
