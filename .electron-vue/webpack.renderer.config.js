@@ -160,6 +160,11 @@ if (process.env.NODE_ENV === 'production') {
     new webpack.DefinePlugin({
       'process.env.NODE_ENV': '"production"'
     }),
+    new webpack.ProvidePlugin({ 
+      $: 'jquery',
+      jQuery: 'jquery',
+      'window.jQuery': 'jquery'
+    }),
     new webpack.LoaderOptionsPlugin({
       minimize: true
     })

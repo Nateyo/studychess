@@ -6,6 +6,9 @@ import App from './App'
 import router from './router'
 import store from './store'
 
+import jquery from 'jquery'
+
+import 'chess.js/chess.min.js'
 import 'vuetify/dist/vuetify.min.css'
 import 'roboto-fontface/css/roboto/roboto-fontface.css'
 
